@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">                                                  
+					
+	<default>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/objectiveit/importsuperproducts.css</stylesheet></action>
+			<action method="addJs"><script>objectiveit/importsuperproducts/source.js</script></action>
+ 		</reference>
+	</default>
+
+     <importsuperproducts_adminhtml_category_dropcategory translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_categories_category" name="importsuperproducts.form" template="esmart/importsuperproducts/dropcategory.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_category_dropcategory>
+
+	<!-- Forms -->
+     <importsuperproducts_adminhtml_configurable_form translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_form" name="importsuperproducts.form" template="esmart/importsuperproducts/form/form.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_form>
+
+     <importsuperproducts_adminhtml_configurable_formrelations translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_form" name="importsuperproducts.formrelations" template="esmart/importsuperproducts/form/formrelations.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_formrelations>
+
+     <importsuperproducts_adminhtml_configurable_formrules translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_form" name="importsuperproducts.formrules" template="esmart/importsuperproducts/form/formrules.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_formrules>
+
+	 <importsuperproducts_adminhtml_configurable_formcategory translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_form" name="importsuperproducts.formcategory" template="esmart/importsuperproducts/form/formcategory.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_formcategory>
+
+     <importsuperproducts_adminhtml_configurable_formsimple translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_form" name="importsuperproducts.formsimple" template="esmart/importsuperproducts/form/formsimple.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_formsimple>
+     <!-- Fim Forms -->
+
+     <importsuperproducts_adminhtml_configurable_csvimport translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_csvimport" name="importsuperproducts.csvimport" template="esmart/importsuperproducts/csvimport.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_csvimport>
+ 
+      <importsuperproducts_adminhtml_configurable_relations translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_relations" name="importsuperproducts.csvimport" template="esmart/importsuperproducts/relations.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_relations>
+
+      <importsuperproducts_adminhtml_configurable_rules translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_rules" name="importsuperproducts.csvimport" template="esmart/importsuperproducts/rules.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_configurable_rules>
+
+     <importsuperproducts_adminhtml_index_index translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_configurable_csvimport" name="importsuperproducts.index" template="esmart/importsuperproducts/index.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_index_index>
+
+	 <importsuperproducts_adminhtml_category_index translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_categories_category" name="importsuperproducts.category" template="esmart/importsuperproducts/category.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_category_index>
+
+	 <importsuperproducts_adminhtml_simple_index translate="label">
+     	<reference name="content">
+     		<block type="importsuperproducts/adminhtml_simple_csvimport" name="importsuperproducts.simple" template="esmart/importsuperproducts/simple.phtml"/>
+     	</reference>
+     </importsuperproducts_adminhtml_simple_index>    
+
+</layout>
